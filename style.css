@@ -1,0 +1,50 @@
+    body {
+
+        border-style: double;
+  border-color: black;
+      animation: colorchange 5s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 150s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: White;}
+      25%  {background: #ddffcc;}
+      50%  {background: White;}
+      75%  {background: #ddffcc;}
+      100% {background: #ddffcc;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%  {background: #ddffcc}
+      50%  {background: #ddffcc;}
+      100%  {background: green;}
+    }
+
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 180px;
+  
+  
+}
+
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: solid;
+  border-radius: 14px;
+  cursor: pointer;
+  float: centre;
+}
