@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>course</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="json.js"></script>
+
+
+<body>
+<div class="container">  
+  <form id="course" action="" method="post">
+    <h1> COURSE REGISTRATION</h1>
+    <br>
+
+    <fieldset>
+      <input placeholder="FIRST NAME" type="text" tabindex="1" required >
+    </fieldset>
+    <fieldset>
+      <input placeholder="LAST NAME" type="text" tabindex="1" required >
+    </fieldset>
+    <fieldset>
+      <input placeholder="EMAIL" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="DOB" type="date" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+
+     <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other
+    </fieldset>
+    <fieldset>
+          <select name="class">
+  <option value="CSA">CS A</option>
+  <option value="CSB">CS B</option>
+</select>
+    </fieldset>
+    <fieldset>
+      <input type="checkbox" name="c1" value="AI">Artificial Intelligence
+  
+    &nbsp<input type="checkbox" name="c2" value="ML"> Machine Learning <br><input type="checkbox" name="c3" value="DL"> Deep Learning 
+    &nbsp<input type="checkbox" name="c4" value="BG"> Big Data Analysis 
+    </fieldset>
+ 
+    <fieldset>
+      <button name="submit" type="submit" id="course-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    
+  </form>
+</div>
+</body>
+</html>
